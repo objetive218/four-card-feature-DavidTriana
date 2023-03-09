@@ -1,0 +1,55 @@
+
+@media (max-width: 375px) {    
+body{
+        font-size: 11px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    section#features {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex-basis: content;
+    }
+    body > p:first-of-type{
+        content: normal;
+
+    }
+    h1#titulo1{
+        font-size: 15px;
+        inline-size: auto;
+    }
+    h2#titulo2{
+        font-size: 18px;
+        inline-size: auto;
+    }
+    p#p1{
+        inline-size: 14rem;
+    }
+    article#feature-1{
+        align-items: start;
+        justify-content: center;
+    }
+    article#feature-4{
+        
+        margin-bottom: 50px;
+        
+    }
+    .container picture{
+        position: relative;
+        width: 20%;
+        height: 30%;
+        display: flex;
+        bottom: 1px;
+        right: 1px;
+    }
+    .allp{
+        margin-bottom: 70px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+}
